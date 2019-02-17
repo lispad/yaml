@@ -12,9 +12,7 @@ Compatibility
 This yaml package supports most of YAML 1.1 and 1.2, the same as https://gopkg.in/yaml.v2 does. 
 
 This yaml package partially supports Symfony's yaml extension for importing configurations 
-with following restrictions:
- * `parameters` section and `%parameter%` macros are not supported
- * full path to global configurations are not  yet supported
+without `parameters` section and `%parameter%` macros support.
 
 Installation and usage
 ----------------------
